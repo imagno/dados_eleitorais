@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+/dados
+/dados_tratados
+/dados_reagrupados
+=======
+dados/votacao_secao_2024_BA.csv
+dados/perfil_eleitor_secao_2024_BA.csv
+=======
+dados/
+>>>>>>> 985a639 (retirando arquivos grandes do commit)
+dados_tratados
+dados_reagrupados
+>>>>>>> aa9d72f (corrigindo path)
