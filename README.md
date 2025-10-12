@@ -10,4 +10,3 @@ https://dadosabertos.tse.jus.br/dataset/resultados-2024
 
 ### link do TSE para baixar os dados dos eleitores por estado
 https://dadosabertos.tse.jus.br/dataset/eleitorado-2024
->>>>>>> aa4051e (inserindo os links dos arquivos a serem trabalhados durante a separação de dados.)
