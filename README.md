@@ -1,20 +1,23 @@
+## Links para baixar os dados trabalhados no projeto
 ### link para selecionar, de maneira simples, os nomes dos candidatos por local desejado
-#### Clica no mapa da região desejada, no campo *Consultas por Regiões Brasileiras*
-https://divulgacandcontas.tse.jus.br/divulga/#/home
+
+[Prestação de contas dos candidatos - TSE](https://divulgacandcontas.tse.jus.br/divulga/#/home)
+
+Clica no mapa da região desejada, no campo *Consultas por Regiões Brasileiras*
 
 Copiar os nomes na página da prestação de contas do TSE, foi a maneira mais simples que encontrei de relacionar os nomes completos dos candidatos e seus respectivos codinomes utilizados na campanha, para filtrar no arquivo dos dados eleitorais dos candidatos.
 
 ### link do TSE para baixar os dados dos candidatos por estado
-https://dadosabertos.tse.jus.br/dataset/resultados-2024
+[Número de votos por seção - TSE](https://dadosabertos.tse.jus.br/dataset/resultados-2024)
 
 
 ### link do TSE para baixar os dados dos eleitores por estado
-https://dadosabertos.tse.jus.br/dataset/eleitorado-2024
+[Perfil do eleitor - TSE](https://dadosabertos.tse.jus.br/dataset/eleitorado-2024)
 
 ### link com os endereços dos locais de votação
-**PESQUISANDO**
+[Lista de escolas públicas - INEP](https://anonymousdata.inep.gov.br/analytics/saw.dll?Portal&PortalPath=%2Fshared%2FCenso%20da%20Educa%C3%A7%C3%A3o%20B%C3%A1sica%2F_portal%2FCat%C3%A1logo%20de%20Escolas)
 
-### Separação por entidades
+## Separação por entidades
 
 - CANDIDATO
   - ID_CANDIDATO
@@ -26,7 +29,7 @@ https://dadosabertos.tse.jus.br/dataset/eleitorado-2024
   - NM_VOTAVEL
 
 - VOTOS_SECAO
-  - ANO_ELEICAO
+  - ID_VOTOS_SECAO
   - ID_CANDIDATO
   - ID_LOCAL_VOTACAO
   - NR_SECAO
