@@ -42,7 +42,6 @@ Copiar os nomes na página da prestação de contas do TSE, foi a maneira mais s
   - NM_BAIRRO
   - NM_CIDADE
   - NR_CEP
-  - NR_SECAO
   - NM_LOCAL_VOTACAO
   - DS_LOCAL_VOTACAO_ENDERECO
 
