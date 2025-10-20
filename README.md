@@ -15,7 +15,9 @@ Copiar os nomes na página da prestação de contas do TSE, foi a maneira mais s
 [Perfil do eleitor - TSE](https://dadosabertos.tse.jus.br/dataset/eleitorado-2024)
 
 ### link com os endereços dos locais de votação
-[Lista de escolas públicas - INEP](https://anonymousdata.inep.gov.br/analytics/saw.dll?Portal&PortalPath=%2Fshared%2FCenso%20da%20Educa%C3%A7%C3%A3o%20B%C3%A1sica%2F_portal%2FCat%C3%A1logo%20de%20Escolas)
+[Lista de ruas e seus respectivos CEPs](https://simoesfilho.ba.gov.br/wp-content/uploads/2024/05/CEP-SIMOES-FILHO-1.pdf)
+
+*Converti o arquivo pdf para xlsx, utilizando algum conversor aleatório, e depois para CSV, utilizando o Google Planilhas*
 
 ## Separação por entidades
 
@@ -46,3 +48,12 @@ Copiar os nomes na página da prestação de contas do TSE, foi a maneira mais s
 
 * Preciso criar um campo com o local ao qual pertencem os candidatos e o turno das votações
 * Preciso de um arquivo com informações dos bairros, das cidades e dos CEPs pertencentes aos locais de votação
+
+## *NOTA!!*
+Estou reagrupando as colunas do arquivo principal para criar entidades, durante o processo, encontrei registros de outros municípios.
+
+O problema citado acima ocorreu por causa da estratégia de isolar apenas registros de Simões Filho tomando como base os nomes completos dos candidatos. Até o momento, foi percebido que pelo menos 2 candidatos de outros municipíos tiveram seus registros incluídos no arquivo em questão.
+
+A hipótese mais plausível é que existam candidatos, de municípios diferentes, que tenham exatamente o mesmo nome.
+
+No momento, a estratégia que será adotada para contornar o problema, será filtrar quais os registros de votos têm seus endereços pertencentes ao município de Simões Filho - BA.
